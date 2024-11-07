@@ -18,10 +18,11 @@ public class Ejercicio_EdadVotar {
         } else {
             System.out.println("No puede votar");
         }
-        /**
-         * *
-         * run: Dame edad: 50 Si puede votar
-         */
+        
 
     }
 }
+         /**
+         * *
+         * run: Dame edad: 50 Si puede votar
+         */
