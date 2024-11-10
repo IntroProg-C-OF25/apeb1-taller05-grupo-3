@@ -8,14 +8,14 @@
  */
 import java.util.Scanner;
 
-public class Ejercicio_CalculadoraIMC {
+public class Ejercicio8_CalculadoraIMC {
 
     public static void main(String[] args) {
         double peso, altura, IMC;
         Scanner tcl = new Scanner(System.in);
-        System.out.println("Dame la altura en metros");
+        System.out.print("Dame la altura en metros: ");
         altura = tcl.nextDouble();
-        System.out.println("Dame el peso en kilogramos");
+        System.out.print("Dame el peso en kilogramos: ");
         peso = tcl.nextDouble();
         IMC = peso / (altura * 2);
         System.out.println("El IMC es = " + IMC);
@@ -31,10 +31,10 @@ public class Ejercicio_CalculadoraIMC {
     }
 
 }
-//run-single:
-//Dame la altura en metros
-//1,80
-//Dame el peso en kilogramos
-//50
-//El IMC es = 13.88888888888889
-//Bajo peso
+/***
+ * run-single:
+ *Dame la altura en metros: 1,8
+ *Dame el peso en kilogramos: 50
+ *El IMC es = 13.88888888888889
+ *Bajo peso
+ */

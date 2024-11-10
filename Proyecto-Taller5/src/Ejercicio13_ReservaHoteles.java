@@ -8,7 +8,7 @@
  */
 import java.util.Scanner;
 
-public class Ejercicio_ReservaHoteles {
+public class Ejercicio13_ReservaHoteles {
 
     public static void main(String[] args) {
         int dias;

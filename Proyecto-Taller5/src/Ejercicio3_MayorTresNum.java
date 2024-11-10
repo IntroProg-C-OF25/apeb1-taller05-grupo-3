@@ -7,7 +7,7 @@
  */
 import java.util.Scanner;
 
-public class Ejercicio_MayorTresNum {
+public class Ejercicio3_MayorTresNum {
 
     public static void main(String[] args) {
 

@@ -6,7 +6,7 @@
  */
 import java.util.Scanner;
 
-public class Ejercicio_AñoBisiesto {
+public class Ejercicio5_AñoBisiesto {
 
     public static void main(String[] args) {
         int año;

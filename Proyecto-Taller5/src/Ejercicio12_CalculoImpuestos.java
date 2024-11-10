@@ -10,17 +10,17 @@ Si el origen es Alemania el impuesto es 20%, si es de Japón el impuesto es 30%,
  */
 import java.util.Scanner;
 
-public class Ejercicio_CalculoImpuestos {
+public class Ejercicio12_CalculoImpuestos {
 
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
         double costo, impuesto = 0, Mimpuesto, Pventa;
         String marca, origen;
-        System.out.println("Dame la marca del automovil");
+        System.out.print("Dame la marca del automovil: ");
         marca = tcl.nextLine();
-        System.out.println("Dame el origen del automovil");
+        System.out.print("Dame el origen del automovil: ");
         origen = tcl.nextLine();
-        System.out.println("Dame el costo del automovil");
+        System.out.print("Dame el costo del automovil: ");
         costo = tcl.nextDouble();
         switch (origen.toLowerCase()) {
             case "alemania":
@@ -43,4 +43,11 @@ public class Ejercicio_CalculoImpuestos {
         System.out.println("Precio de ventas incluido con impuestos = " + Pventa);
     }
 }
-
+/***
+ * run-single:
+ *Dame la marca del automovil: ferrrari
+ *Dame el origen del automovil: italia
+ *Dame el costo del automovil: 100
+ *Impuesto a pagar = 15.0
+ *Precio de ventas incluido con impuestos = 115.0
+ */

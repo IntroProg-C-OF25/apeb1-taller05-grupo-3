@@ -7,7 +7,7 @@
  */
 import java.util.Scanner;
 
-public class Ejercicio_DescuentoenCompras {
+public class Ejercicio4_DescuentoenCompras {
 
     public static void main(String[] args) {
         double preciOriginal, descuento, precioFinal;

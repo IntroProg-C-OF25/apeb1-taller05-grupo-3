@@ -5,13 +5,13 @@
  * @author Chente15
  */
 import java.util.Scanner;
-public class Categoria_Edad {
+public class Ejercicio6_CateEdad {
 
     public static void main(String[] args) {
         int Edad;
         String categoria;
         Scanner tcl = new Scanner(System.in);
-        System.out.println("Dame la edad");
+        System.out.print("Dame la edad: ");
         Edad = tcl.nextInt();
         if (Edad < 13) {
             categoria = "Niño";

@@ -7,7 +7,7 @@
  */
 import java.util.Scanner;
 
-public class Ejercicio_DiaSemana {
+public class Ejercicio2_DiaSemana {
 
     public static void main(String[] args) {
 

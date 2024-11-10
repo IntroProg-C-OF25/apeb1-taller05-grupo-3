@@ -6,7 +6,7 @@
  */
 import java.util.Scanner;
 
-public class Ejercicio_OrdenamientoTresNumeros {
+public class Ejercicio9_OrdenamientoTresNumeros {
 
     public static void main(String[] args) {
         int numero1, numero2, numero3, numeroMenor, numeroMayor, numeroMedio;

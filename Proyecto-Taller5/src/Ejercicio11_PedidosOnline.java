@@ -7,7 +7,7 @@
  */
 import java.util.Scanner;
 
-public class Ejercicio_PedidosOnline {
+public class Ejercicio11_PedidosOnline {
 
     public static void main(String[] args) {
         String descripcion;

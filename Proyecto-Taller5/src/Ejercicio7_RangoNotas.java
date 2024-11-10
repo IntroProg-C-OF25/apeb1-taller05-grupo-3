@@ -7,7 +7,7 @@
  */
 import java.util.Scanner;
 
-public class Ejercicio_RangoNotas {
+public class Ejercicio7_RangoNotas {
 
     public static void main(String[] args) {
         int calificacion;
