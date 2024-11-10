@@ -47,6 +47,9 @@ public class Ejercicio_DiaSemana {
 }
 /**
  * *
- * run: Deme num. del dia: 5 Viernes run: Deme num. del dia: 10 Error en el
- * numero
+ * run: Deme num. del dia: 5
+ * Viernes 
+ * 
+ * run: Deme num. del dia: 10 
+ * Error en el numero
  */
